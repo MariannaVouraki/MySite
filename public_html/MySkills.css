@@ -1,0 +1,145 @@
+
+/* My srvices section*/
+
+.skills {
+    
+    position: absolute;
+    top: 17%;
+    left: 30%;
+    height: 60vh;
+    width: 85vh;
+    margin: 60px  auto;
+    color: white;
+    list-style: none;
+    padding: 0;
+    display: block;
+    
+  }
+.skills li{
+    margin:30px 0px;
+  }
+.bar{
+  background: #353b48;
+  display: block;
+  height: 10px;
+  border: 1px solid rbga(0,0,0,0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3;
+}  
+.bar span{
+  height: 8px;
+  float: left;
+  
+}
+.html{
+  background: #04549e;
+  width: 65%;
+  animation: html 2s;
+}
+.css{
+  background:#1adc9c;
+  width: 65%;
+  animation: css 2s;
+}
+.js{
+  background: #f1c40f;
+  width: 60%;
+  animation: js 2s;
+}
+.django{
+  background: #e74c3c;
+  width: 60%;
+  animation: django 2s;
+}
+.react{
+  background: #3498db;
+  width: 45%;
+  animation: react 2s;
+}
+.python{
+  background: #9b59b6;
+  width:70%;
+  animation: python 2s;
+}
+
+@keyframes html{
+  0%{
+    width:0%;
+  }
+  100%{
+    width:65%
+  }
+}
+@keyframes css{
+  0%{
+    width:0%;
+  }
+  100%{
+    width:65%
+  }
+}
+@keyframes js{
+  0%{
+    width:0%;
+  }
+  100%{
+    width:55%
+  }
+}
+@keyframes django{
+  0%{
+    width:0%;
+  }
+  100%{
+    width:65%
+  }
+}
+@keyframes  python{
+  0%{
+    width:0%;
+  }
+  100%{
+    width:75%
+  }
+}
+@keyframes react{
+  0%{
+    width:0%;
+  }
+  100%{
+    width:45%
+  }
+}
+@media (max-width: 858px){
+  .skills {
+    position: absolute;
+    top: 17%;
+    left: 16%;
+    height: 50vh;
+    width: 50vh;
+    margin: 60px  auto;
+    color: white;
+    list-style: none;
+    padding: 0;
+    display: block;
+    
+  }
+.skills li{
+    margin:30px 0px;
+  }
+.bar{
+  background: #353b48;
+  display: block;
+  height: 10px;
+  border: 1px solid rbga(0,0,0,0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3;
+}  
+.bar span{
+  height: 8px;
+  float: left;
+  
+}
+}

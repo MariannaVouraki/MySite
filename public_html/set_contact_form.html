@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Animated Backgorund</title>
+<link rel="stylesheet" href="./contact.css">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./style-footer.css">
+<link rel="stylesheet" href="./styleNav.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+<body id="particles-js">
+    
+
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label  class="social">MB</label>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li ><a href="./project.html">Projects</a></li>
+                <li ><a href="./skills.html">skills</a></li> 
+                <li ><a  class="active" href="./set_contact_form.html">contact</a></li>       
+                <li ><a href="./tutorials.html">Tutorials</a></li>
+
+            </ul>  
+        </nav>   
+
+        
+            <div class="contact-title">
+                <p>Would You Like To Send Me An Email??</p>
+            </div>
+            
+            <div class="form">
+                <form id="contact-form" method="POST" action="mailto:mariannavourakii@gmail.com" enctype="multipart/form-data" name="EmailForm">
+                    <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+        
+                    <input name="Email" type="text" class="form-control" placeholder="Your Email" required><br>
+        
+                    <textarea name="Message" class="form-control" placeholder="Message" rows="5" required></textarea><br>
+        
+                    <input type="submit" class="form-control submit" value="SEND MESSAGE">
+                </form>
+            </div>
+
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="particles.js"></script>
+        <script src="app.js"></script>
+        <footer>
+            <div class="inner-footer">
+                <div class="social-links">
+                    <ul>
+                        <li class="social-items"><a href="https://www.facebook.com/profile.php?id=100021081851608"><i class="fab fa-facebook-square"></i></a></li>
+                        <li class="social-items"><a href="https://www.instagram.com/marianna_vouraki/"><i class="fab fa-instagram"></i></a></li>
+                        <li class="social-items"><a href="https://github.com/MariannaVouraki"><i class="fab fa-github-square"></i></a></li>
+                        <li class="social-items"><a href="https://www.linkedin.com/in/%CE%BC%CE%B1%CF%81%CE%B9%CE%B1%CE%BD%CE%BD%CE%B1-%CE%B2%CE%BF%CF%85%CF%81%CE%B1%CE%BA%CE%B7-2890831a3/l"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div class="quick-link">
+                    <ul>
+                        <li class="quick-items"><a href="index.html">home</a></li>
+                        <li class="quick-items"><a href="project.html">projects</a> </li>
+                        <li class="quick-items"><a href="skills.html">skills</a> </li>
+                        <li class="quick-items"><a class="active" href="set_contact_form.html">contact</a> </li>
+                        <li class="quick-items"><a href="tutorials.html">tutorials</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="outer-footer">
+                Copyright &copy; Marianna Vouraki. All Rights Reserved
+            </div>
+        </footer>
+</body>
+
+</html>
